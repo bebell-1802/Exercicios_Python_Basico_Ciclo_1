@@ -9,5 +9,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+cotacao = float(input("digite o valor atual do dólar: "))
+dolares = float(input("digite a quantidade de dólares que quer converter: "))
 
+reais = cotacao * dolares
 
+print("--- conversão ---")
+print("cotação do dólar: R$", cotacao)
+print("quantidade em dólar: US$", dolares)
+print("valor em reais: R$", reais)

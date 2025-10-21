@@ -9,4 +9,14 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+produto = input("digite o nome do produto: ")
+preco = float(input("digite o preço do produto: "))
+desconto = float(input("digite o desconto (%): "))
 
+valor_desconto = preco * (desconto / 100)
+preco_final = preco - valor_desconto
+
+print("---resultado---")
+print("produto: ", produto)
+print("valor do desconto: R$", valor_desconto)
+print("preço final com desconto: R$", preco_final)

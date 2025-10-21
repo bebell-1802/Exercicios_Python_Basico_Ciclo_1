@@ -8,3 +8,9 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+num1 = float(input("digite o numero: "))
+num2 = float(input("digite o numero: "))
+
+soma = num1 + num2
+
+print(f"a soma do {num1} e {num2} é: {soma}")
